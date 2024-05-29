@@ -1,1 +1,28 @@
-/*COLORS*/
+/*COLORS BUTTONS*/
+:root {
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+}
+
+/*COLORS BASE*/
+:root {
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+}
+
+
+/*COLORS TEXTS*/
+:root {
+  --text-color-primary: #F1F5FF;
+  --text-color-secondary: #CBD5E1;
+}
+
+/*STYLES AND FONTS*/
+:root {
+  --font-family: "Archivo", sans-serif;
+  --text: 14px/160% var(--font-family);
+  --text-span: "semibold" 14px/145% var(--font-family);
+  --headind3: "extrabold" 14px/140% var(--font-family);
+  --headind2: "extrabold" 16px/140% var(--font-family);
+  --headind1: "extrabold" 24px/135% var(--font-family);
+}
