@@ -1,0 +1,18 @@
+#featured {
+
+.card {
+  overflow: hidden; /*ESconda tudo que transbordar*/
+  border-radius: 4px;
+  position: relative; /* Note que caso eu retire esse relative toda página fica branca, pois o content vai ocupar tudo! O relative informa que é apenas o objeto que queremos, oo card.*/
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    top: 50%; /*define o distanciamento da do objeto  que nesse caso é o gradinte*/
+    background: linear-gradient(180deg, transparent 0%, #020617 100%)
+  }
+}
+
+
+}
