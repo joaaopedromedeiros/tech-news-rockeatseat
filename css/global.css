@@ -55,3 +55,21 @@ a:hover {
 h1,h2,h3 {
   font: inherit; /* Esqueça as fontes do navegador e se configure conforme eu for adicionando aqui! Vamos usar muito disso pois existem vários H na página e modificaremos de formas diferentes*/
 }
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px; /* distância entre a lateral*/
+  margin-inline: auto;
+}
+
+
+
+/* utility-first, tags que são aplicadas como bootstrap, apenas aplica no html e modifica*/
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column; 
+}

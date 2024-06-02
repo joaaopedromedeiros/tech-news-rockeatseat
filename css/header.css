@@ -1,0 +1,29 @@
+#primary {
+  padding-block: 20px;
+
+  /* nesting CSS, seletor dentro de uma própria tag, maneira mais nova */
+  div:nth-child(2) {
+    margin-inline: auto; /* deixar a logo centrealizada com a margen n=da linha automática*/
+  } 
+
+  div:nth-child(3) {
+    justify-self: end; /* deixar o objeto sempre alinhado ao final*/
+  }
+
+  /* nesting CSS, como era antigamente */
+/* #primary div:nth-child(3) { Estilos ... }*/
+
+  div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+#secondary {
+  padding-block: 14px; /* Espaço horizontal de distãncia*/
+  border: solid 1px var(--stroke-color)
+  border-inline: none;
+  justify-content: space-between; /* Como ativou? Ela tem a classe grid, então funciona*/
+}
+
