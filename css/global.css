@@ -62,14 +62,12 @@ h1,h2,h3 {
   margin-inline: auto;
 }
 
-
-
-/* utility-first, tags que são aplicadas como bootstrap, apenas aplica no html e modifica*/
-
-.grid {
-  display: grid;
+img {
+  max-width: 100%;
+  
 }
 
-.grid-flow-col {
-  grid-auto-flow: column; 
+main {
+  margin-top: 40px;
 }
+
