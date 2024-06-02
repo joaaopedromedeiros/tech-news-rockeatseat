@@ -1,4 +1,4 @@
-/* utility-first, tags que são aplicadas como bootstrap, apenas aplica no html e modifica*/
+/* utility-first, tags que são aplicadas como bootstrap, apenas aplica no html e modifica por classes*/
 
 .grid {
   display: grid;
@@ -15,3 +15,4 @@
 .gap-16 {
   gap: 16px;
 }
+

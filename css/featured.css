@@ -3,7 +3,7 @@
 .card {
   overflow: hidden; /*ESconda tudo que transbordar*/
   border-radius: 4px;
-  position: relative; /* Note que caso eu retire esse relative toda página fica branca, pois o content vai ocupar tudo! O relative informa que é apenas o objeto que queremos, oo card.*/
+  position: relative; /* Note que caso eu retire esse relative toda página fica branca, pois o content vai ocupar tudo! O relative informa que é apenas o objeto que queremos, o card.*/
 
   &::before {
     content: "";
@@ -11,6 +11,21 @@
     inset: 0;
     top: 50%; /*define o distanciamento da do objeto  que nesse caso é o gradinte*/
     background: linear-gradient(180deg, transparent 0%, #020617 100%)
+  }
+
+  figcaption {
+    position: absolute; /* fez ficar no card devido o card está com position| relative no começo*/
+    bottom: 0;
+    padding: 24px;
+
+    &:has(.text-lg) {
+      padding: 12px;
+    } /* o figcaption tem elemento com a (tag)? se sim, aplique o estilo*/
+
+    h2 {
+      margin-top: 8px;
+    }
+
   }
 }
 
