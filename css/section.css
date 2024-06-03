@@ -32,7 +32,8 @@ img {
 
 #weekly {
   
-
+  grid-area: weekly;
+  
   &>div {
     grid-template-columns: repeat(4, 292px);
     gap: 16px;
@@ -62,4 +63,14 @@ figure {
 
 }
 
+#ai {
+  img {
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}
 
+h3 {
+  margin-block: 8px 4px; /* 8 a cximA 4 A BAIXO*/
+}
